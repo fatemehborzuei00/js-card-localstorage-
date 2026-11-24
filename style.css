@@ -1,0 +1,57 @@
+body {
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:aqua;
+}
+
+.container {
+    background: pink;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#welcomeMessage {
+    color: #28a745;
+}
+
+.submit {
+  font-weight: bold;
+  color: #a5f3fc;
+  width: 130px;
+  height: 30px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
